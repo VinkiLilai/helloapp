@@ -7,12 +7,7 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
-            Console.Writeline("hello");
-        }
-        
-        static void GreetWhite()
-        {
-            Console.Writeline("hello white");
+            Console.Writeline("hello everyone");
         }
     }
 }
