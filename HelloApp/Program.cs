@@ -8,6 +8,18 @@ namespace HelloApp
         static void Main(string[] args)
         {
             Console.Writeline("hello everyone");
+            GreetWhite();
+            GreetBlack();
+        }
+        
+        static void GreetWhite()
+        {
+            Console.Writeline("hello white");
+        }
+        
+        static void GreetBlack()
+        {
+            Console.Writeline("hello black");
         }
     }
 }
